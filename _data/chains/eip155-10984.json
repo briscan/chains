@@ -1,0 +1,30 @@
+{
+  "name": "Bri Chain",
+  "chain": "BRI",
+  "rpc": [
+    "https://mainnet-rpc.briscan.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BRI",
+    "symbol": "BRI",
+    "decimals": 18
+  },
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
+  "infoURL": "https://briscan.io",
+  "shortName": "bri",
+  "chainId": 10984,
+  "networkId": 10984,
+  "icon": "bri",
+  "explorers": [
+    {
+      "name": "Bri Chain Explorer",
+      "url": "https://briscan.io",
+      "icon": "bri",
+      "standard": "EIP3091"
+    }
+  ]
+}
